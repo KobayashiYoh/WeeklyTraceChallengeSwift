@@ -1,1 +1,3 @@
 # WeeklyTraceChallengeSwift
+PlayGroundモバイルコース定例会のUIトレース&機能トレースで使用するリポジトリ（Swift編）です。<br>
+Flutter以外でもモバイルアプリ開発ができるようになりたいと思い、今までFlutterで行っていたUIトレースと機能トレースをSwiftで挑戦することにしました。
