@@ -9,20 +9,15 @@ import SwiftUI
 import AVKit
 
 struct ContentView: View {
-    private let player = AVPlayer(url: Bundle.main.url(forResource: "rabbit", withExtension: "mp4")!)
+    @State private var player: AVPlayer = AVPlayer(url: Bundle.main.url(forResource: "rabbit", withExtension: "mp4")!)
+    
+    init() {
+        player.play()
+    }
+    
+    
     var body: some View {
-        VStack {
-            HStack {
-                Button("Play") {
-                    player.play()
-                }
-                Button("Pause") {
-                    player.pause()
-                }
-            }
-            VideoPlayer(player: player)
-        }
-
+        VideoPlayer(player: player)
     }
 }
 
