@@ -17,7 +17,7 @@ struct ContentView: View {
     
     
     var body: some View {
-        VideoPlayer(player: player)
+        VideoPlayer(player: player).background(Color.black)
     }
 }
 
