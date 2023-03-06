@@ -14,6 +14,9 @@
 		D9BA3EB329B5C1DF002F4B7A /* FunctionTrace20230306Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA3EB229B5C1DF002F4B7A /* FunctionTrace20230306Tests.swift */; };
 		D9BA3EBD29B5C1DF002F4B7A /* FunctionTrace20230306UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA3EBC29B5C1DF002F4B7A /* FunctionTrace20230306UITests.swift */; };
 		D9BA3EBF29B5C1DF002F4B7A /* FunctionTrace20230306UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA3EBE29B5C1DF002F4B7A /* FunctionTrace20230306UITestsLaunchTests.swift */; };
+		D9BA3ED129B5CF61002F4B7A /* rabbit.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D9BA3ED029B5CF61002F4B7A /* rabbit.mp4 */; };
+		D9BA3ED229B5CF61002F4B7A /* rabbit.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D9BA3ED029B5CF61002F4B7A /* rabbit.mp4 */; };
+		D9BA3ED329B5CF61002F4B7A /* rabbit.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D9BA3ED029B5CF61002F4B7A /* rabbit.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,7 @@
 		D9BA3EB829B5C1DF002F4B7A /* FunctionTrace20230306UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunctionTrace20230306UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9BA3EBC29B5C1DF002F4B7A /* FunctionTrace20230306UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionTrace20230306UITests.swift; sourceTree = "<group>"; };
 		D9BA3EBE29B5C1DF002F4B7A /* FunctionTrace20230306UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionTrace20230306UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D9BA3ED029B5CF61002F4B7A /* rabbit.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rabbit.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,7 @@
 		D9BA3E9F29B5C1DE002F4B7A /* FunctionTrace20230306 */ = {
 			isa = PBXGroup;
 			children = (
+				D9BA3ED029B5CF61002F4B7A /* rabbit.mp4 */,
 				D9BA3EA029B5C1DE002F4B7A /* FunctionTrace20230306App.swift */,
 				D9BA3EA229B5C1DE002F4B7A /* ContentView.swift */,
 				D9BA3EA429B5C1DF002F4B7A /* Assets.xcassets */,
@@ -234,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9BA3EA929B5C1DF002F4B7A /* Preview Assets.xcassets in Resources */,
+				D9BA3ED129B5CF61002F4B7A /* rabbit.mp4 in Resources */,
 				D9BA3EA529B5C1DF002F4B7A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9BA3ED229B5CF61002F4B7A /* rabbit.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9BA3ED329B5CF61002F4B7A /* rabbit.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,16 +6,23 @@
 //
 
 import SwiftUI
+import AVKit
 
 struct ContentView: View {
+    private let player = AVPlayer(url: Bundle.main.url(forResource: "rabbit", withExtension: "mp4")!)
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            HStack {
+                Button("Play") {
+                    player.play()
+                }
+                Button("Pause") {
+                    player.pause()
+                }
+            }
+            VideoPlayer(player: player)
         }
-        .padding()
+
     }
 }
 
