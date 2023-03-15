@@ -9,13 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        UserRow(iconColor: .purple, iconText: "S", title: "Sales group", subTitle: "Just now | 10 members")
+        UserRow(iconColor: .green, iconText: "M", title: "Sales group", subTitle: "Just now | 10 members", isOutgoing: false)
+        UserRow(iconColor: .orange, iconText: "T", title: "Sales group", subTitle: "Just now | 10 members", isOutgoing: false)
+        UserRow(iconColor: .purple, iconText: "R", title: "Sales group", subTitle: "Just now | 10 members")
+        UserRow(iconColor: .blue, iconText: "O", title: "Sales group", subTitle: "Just now | 10 members", isOutgoing: false)
+        UserRow(iconColor: .red, iconText: "R", title: "Sales group", subTitle: "Just now | 10 members")
+        UserRow(iconColor: .yellow, iconText: "S", title: "Sales group", subTitle: "Just now | 10 members")
     }
 }
 
