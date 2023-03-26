@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selection = 3
     var body: some View {
         VStack {
-            TabView {
+            TabView(selection: $selection) {
                 SubPage(title: "tab 1").tabItem{
                     VStack {
                         Image(systemName: "a")
