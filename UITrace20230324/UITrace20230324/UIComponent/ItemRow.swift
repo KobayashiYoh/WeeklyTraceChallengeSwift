@@ -15,7 +15,7 @@ struct ItemRow: View {
             Text(title).font(.system(size: 16))
             Spacer()
             Text(">").font(.system(size: 48)).foregroundColor(Color.gray)
-        }.padding()
+        }.padding().background(Color.white)
     }
 }
 

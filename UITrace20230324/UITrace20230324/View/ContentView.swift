@@ -9,6 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var selection = 3
+    
+    init(){
+        UITabBar.appearance().backgroundColor = UIColor.white
+    }
+    
     var body: some View {
         VStack {
             TabView(selection: $selection) {
@@ -36,9 +41,8 @@ struct ContentView: View {
                         Text("Me")
                     }
                 }.tag(4)
-            }
+            }.accentColor(Color.black)
         }
-        .padding()
     }
 }
 

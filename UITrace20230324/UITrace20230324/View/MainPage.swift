@@ -9,16 +9,19 @@ import SwiftUI
 
 struct MainPage: View {
     var body: some View {
-        VStack {
-            Text("More").font(.title3)
-            ItemRow(title: "Port Scan")
-            Divider()
-            ItemRow(title: "Trace Route")
-            Divider()
-            ItemRow(title: "Wholes")
-            Spacer()
+        ZStack {
+            Color(red: 237, green: 237, blue: 237).ignoresSafeArea()
+            VStack {
+                Text("More").font(.title3)
+                ItemRow(title: "Port Scan")
+                Divider()
+                ItemRow(title: "Trace Route")
+                Divider()
+                ItemRow(title: "Wholes")
+                Spacer()
+            }
+            .padding()
         }
-        .padding()
     }
 }
 
