@@ -1,13 +1,13 @@
 //
-//  ContentView.swift
+//  MainPage.swift
 //  UITrace20230324
 //
-//  Created by 小林陽 on 2023/03/24.
+//  Created by 小林陽 on 2023/03/26.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct MainPage: View {
     var body: some View {
         VStack {
             Text("More").font(.title3)
@@ -22,8 +22,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct MainPage_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MainPage()
     }
 }
