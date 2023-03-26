@@ -14,6 +14,7 @@
 		D98BA54029CDD30A00F9102B /* UITrace20230324Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98BA53F29CDD30A00F9102B /* UITrace20230324Tests.swift */; };
 		D98BA54A29CDD30A00F9102B /* UITrace20230324UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98BA54929CDD30A00F9102B /* UITrace20230324UITests.swift */; };
 		D98BA54C29CDD30A00F9102B /* UITrace20230324UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98BA54B29CDD30A00F9102B /* UITrace20230324UITestsLaunchTests.swift */; };
+		D98BA55929D0719300F9102B /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98BA55829D0719300F9102B /* ItemRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		D98BA54529CDD30A00F9102B /* UITrace20230324UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITrace20230324UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D98BA54929CDD30A00F9102B /* UITrace20230324UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITrace20230324UITests.swift; sourceTree = "<group>"; };
 		D98BA54B29CDD30A00F9102B /* UITrace20230324UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITrace20230324UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D98BA55829D0719300F9102B /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				D98BA53129CDD30A00F9102B /* Assets.xcassets */,
 				D98BA53329CDD30A00F9102B /* UITrace20230324.entitlements */,
 				D98BA53429CDD30A00F9102B /* Preview Content */,
+				D98BA55829D0719300F9102B /* ItemRow.swift */,
 			);
 			path = UITrace20230324;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D98BA55929D0719300F9102B /* ItemRow.swift in Sources */,
 				D98BA53029CDD30900F9102B /* ContentView.swift in Sources */,
 				D98BA52E29CDD30900F9102B /* UITrace20230324App.swift in Sources */,
 			);
