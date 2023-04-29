@@ -9,10 +9,15 @@ import SwiftUI
 
 struct StorePage: View {
     var body: some View {
-        VStack {
-            Text("Top Charts")
+        NavigationView {
+            VStack {
+                Text("Top Charts")
+            }
+            .padding().navigationBarItems(
+                leading: Button("< Action") {},
+                trailing: Button("All Categories") {}
+            )
         }
-        .padding()
     }
 }
 
