@@ -8,10 +8,31 @@
 import SwiftUI
 
 struct StorePage: View {
+    @State var selected = 0
+    
+    init() {
+        let appearance = UISegmentedControl.appearance()
+        let foregroundColor = UIColor.systemBlue
+        appearance.selectedSegmentTintColor = foregroundColor
+        appearance.setTitleTextAttributes([
+            .foregroundColor: foregroundColor
+        ], for: .normal)
+        appearance.setTitleTextAttributes([
+            .foregroundColor: UIColor.white
+        ], for: .selected)
+    }
+    
     var body: some View {
         NavigationView {
             VStack {
-                Text("Top Charts")
+                HStack {
+                    Text("Top Charts").font(.largeTitle).bold()
+                    Spacer()
+                }
+                Picker(selection: $selected, label: Text("ラベル")) {
+                    Text("Paid Apps").tag(0)
+                    Text("Free Apps").tag(1)
+                }.pickerStyle(.segmented).background(Color.white).foregroundColor(Color.blue)
             }
             .padding().navigationBarItems(
                 leading: Button("< Action") {},
