@@ -15,6 +15,7 @@
 		D9F7DF0229FD50F10017677C /* UITrace20230429UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F7DF0129FD50F10017677C /* UITrace20230429UITests.swift */; };
 		D9F7DF0429FD50F10017677C /* UITrace20230429UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F7DF0329FD50F10017677C /* UITrace20230429UITestsLaunchTests.swift */; };
 		D9F7DF1229FD51B00017677C /* StorePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F7DF1129FD51B00017677C /* StorePage.swift */; };
+		D9F7DF1429FD58540017677C /* StoreItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F7DF1329FD58540017677C /* StoreItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D9F7DF0129FD50F10017677C /* UITrace20230429UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITrace20230429UITests.swift; sourceTree = "<group>"; };
 		D9F7DF0329FD50F10017677C /* UITrace20230429UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITrace20230429UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D9F7DF1129FD51B00017677C /* StorePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorePage.swift; sourceTree = "<group>"; };
+		D9F7DF1329FD58540017677C /* StoreItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 			children = (
 				D9F7DEE729FD50F00017677C /* ContentView.swift */,
 				D9F7DF1129FD51B00017677C /* StorePage.swift */,
+				D9F7DF1329FD58540017677C /* StoreItem.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			files = (
 				D9F7DEE829FD50F00017677C /* ContentView.swift in Sources */,
 				D9F7DEE629FD50F00017677C /* UITrace20230429App.swift in Sources */,
+				D9F7DF1429FD58540017677C /* StoreItem.swift in Sources */,
 				D9F7DF1229FD51B00017677C /* StorePage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

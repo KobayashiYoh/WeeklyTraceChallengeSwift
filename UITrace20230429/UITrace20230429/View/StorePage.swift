@@ -33,6 +33,14 @@ struct StorePage: View {
                     Text("Paid Apps").tag(0)
                     Text("Free Apps").tag(1)
                 }.pickerStyle(.segmented).background(Color.white).foregroundColor(Color.blue)
+                StoreItem()
+                StoreItem()
+                StoreItem()
+                StoreItem()
+                StoreItem()
+                StoreItem()
+                StoreItem()
+                StoreItem()
             }
             .padding().navigationBarItems(
                 leading: Button("< Action") {},
