@@ -17,6 +17,7 @@
 		D9F7E00829FE76CA0017677C /* SettingsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F7E00729FE76CA0017677C /* SettingsItem.swift */; };
 		D9F7E00A29FE76E30017677C /* SettingsTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F7E00929FE76E30017677C /* SettingsTitleLabel.swift */; };
 		D9F7E00C29FE79C40017677C /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F7E00B29FE79C40017677C /* SettingsPage.swift */; };
+		D9F7E00E29FE97320017677C /* SubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F7E00D29FE97320017677C /* SubView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D9F7E00729FE76CA0017677C /* SettingsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsItem.swift; sourceTree = "<group>"; };
 		D9F7E00929FE76E30017677C /* SettingsTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTitleLabel.swift; sourceTree = "<group>"; };
 		D9F7E00B29FE79C40017677C /* SettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
+		D9F7E00D29FE97320017677C /* SubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 				D9F7E00729FE76CA0017677C /* SettingsItem.swift */,
 				D9F7E00929FE76E30017677C /* SettingsTitleLabel.swift */,
 				D9F7E00B29FE79C40017677C /* SettingsPage.swift */,
+				D9F7E00D29FE97320017677C /* SubView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				D9F7DFDE29FE76930017677C /* ContentView.swift in Sources */,
 				D9F7DFDC29FE76930017677C /* UITrace202303430App.swift in Sources */,
 				D9F7E00A29FE76E30017677C /* SettingsTitleLabel.swift in Sources */,
+				D9F7E00E29FE97320017677C /* SubView.swift in Sources */,
 				D9F7E00829FE76CA0017677C /* SettingsItem.swift in Sources */,
 				D9F7E00C29FE79C40017677C /* SettingsPage.swift in Sources */,
 			);
