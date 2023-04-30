@@ -10,7 +10,10 @@ import SwiftUI
 struct SettingsTitleLabel: View {
     let title: String
     var body: some View {
-        Text(title).font(.subheadline).foregroundColor(Color.gray)
+        HStack {
+            Text(title).font(.subheadline).foregroundColor(Color.gray)
+            Spacer()
+        }
     }
 }
 

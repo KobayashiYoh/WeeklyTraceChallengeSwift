@@ -13,8 +13,9 @@ struct SettingsItem: View {
     var body: some View {
         HStack {
             Text(title)
+            Spacer()
             trailing
-        }
+        }.frame(height: 40)
     }
 }
 
