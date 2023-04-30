@@ -11,11 +11,14 @@ struct SettingsItem: View {
     let title: String
     let trailing: AnyView
     var body: some View {
-        HStack {
-            Text(title)
-            Spacer()
-            trailing
-        }.frame(height: 40)
+        VStack (spacing: 0) {
+            HStack {
+                Text(title)
+                Spacer()
+                trailing
+            }.padding(.vertical, 8).padding(.trailing, 16)
+            Divider()
+        }.padding(.leading, 16).frame(height: 40).background(.white)
     }
 }
 

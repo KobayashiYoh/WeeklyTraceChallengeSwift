@@ -13,25 +13,24 @@ struct SettingsPage: View {
     }
     var body: some View {
         NavigationView {
-            VStack (alignment: .leading) {
-                Spacer().frame(height: 32)
-                VStack {
-                    SettingsTitleLabel(title: "アプリ情報")
-                    SettingsItem(title: "プライバシーポリシー", trailing: AnyView(Text(">")));
-                    Divider()
-                    SettingsItem(title: "利用規約", trailing: AnyView(Text(">")));
-                    Divider()
-                    SettingsItem(title: "アプリバージョン", trailing: AnyView(Text("v1.0.0")));
-                    Divider()
-                }
-                Spacer().frame(height: 36)
-                VStack {
-                    SettingsTitleLabel(title: "その他");
-                    SettingsItem(title: "ログアウトする", trailing: AnyView(Text("")))
-                    Divider()
-                }
-                Spacer()
-            }.padding().navigationBarTitle("Settings", displayMode: .inline)
+            ZStack {
+                Color(red: 0.949, green: 0.949, blue: 0.949)
+                VStack (alignment: .leading) {
+                    VStack (spacing: 0) {
+                        Spacer().frame(height: 32)
+                        SettingsTitleLabel(title: "アプリ情報")
+                        SettingsItem(title: "プライバシーポリシー", trailing: AnyView(Text(">")));
+                        SettingsItem(title: "利用規約", trailing: AnyView(Text(">")));
+                        SettingsItem(title: "アプリバージョン", trailing: AnyView(Text("v1.0.0")));
+                    }
+                    Spacer().frame(height: 36)
+                    VStack (spacing: 0) {
+                        SettingsTitleLabel(title: "その他");
+                        SettingsItem(title: "ログアウトする", trailing: AnyView(Spacer()))
+                    }
+                    Spacer()
+                }.navigationBarTitle("Settings", displayMode: .inline)
+            }
         }
     }
 }

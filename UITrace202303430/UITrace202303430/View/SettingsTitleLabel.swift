@@ -13,7 +13,7 @@ struct SettingsTitleLabel: View {
         HStack {
             Text(title).font(.subheadline).foregroundColor(Color.gray)
             Spacer()
-        }
+        }.padding(.leading, 16).padding(.bottom, 8)
     }
 }
 
