@@ -18,6 +18,7 @@
 		D9F7E00A29FE76E30017677C /* SettingsTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F7E00929FE76E30017677C /* SettingsTitleLabel.swift */; };
 		D9F7E00C29FE79C40017677C /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F7E00B29FE79C40017677C /* SettingsPage.swift */; };
 		D9F7E00E29FE97320017677C /* SubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F7E00D29FE97320017677C /* SubView.swift */; };
+		D9F7E01129FEB44E0017677C /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9F7E00F29FEAB830017677C /* Pacifico-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D9F7E00929FE76E30017677C /* SettingsTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTitleLabel.swift; sourceTree = "<group>"; };
 		D9F7E00B29FE79C40017677C /* SettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
 		D9F7E00D29FE97320017677C /* SubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubView.swift; sourceTree = "<group>"; };
+		D9F7E00F29FEAB830017677C /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		D9F7E01029FEAC200017677C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 		D9F7DFDA29FE76930017677C /* UITrace202303430 */ = {
 			isa = PBXGroup;
 			children = (
+				D9F7E01229FEB6CF0017677C /* Assets */,
+				D9F7E01029FEAC200017677C /* Info.plist */,
 				D9F7E00629FE76BC0017677C /* View */,
 				D9F7DFDB29FE76930017677C /* UITrace202303430App.swift */,
 				D9F7DFDD29FE76930017677C /* ContentView.swift */,
@@ -147,6 +152,14 @@
 				D9F7E00D29FE97320017677C /* SubView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		D9F7E01229FEB6CF0017677C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D9F7E00F29FEAB830017677C /* Pacifico-Regular.ttf */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9F7E01129FEB44E0017677C /* Pacifico-Regular.ttf in Resources */,
 				D9F7DFE429FE76940017677C /* Preview Assets.xcassets in Resources */,
 				D9F7DFE029FE76940017677C /* Assets.xcassets in Resources */,
 			);
@@ -441,6 +455,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"UITrace202303430/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UITrace202303430/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -477,6 +492,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"UITrace202303430/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UITrace202303430/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
