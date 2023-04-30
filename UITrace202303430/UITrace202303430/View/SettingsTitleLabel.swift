@@ -11,7 +11,7 @@ struct SettingsTitleLabel: View {
     let title: String
     var body: some View {
         HStack {
-            Text(title).font(.subheadline).foregroundColor(Color.gray)
+            Text(title).font(.system(size: 12, weight: .medium)).foregroundColor(Color(red: 0.51, green: 0.51, blue: 0.51))
             Spacer()
         }.padding(.leading, 16).padding(.bottom, 8)
     }

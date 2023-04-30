@@ -21,7 +21,7 @@ struct SettingsPage: View {
                         SettingsTitleLabel(title: "アプリ情報")
                         SettingsItem(title: "プライバシーポリシー", trailing: AnyView(Text(">")));
                         SettingsItem(title: "利用規約", trailing: AnyView(Text(">")));
-                        SettingsItem(title: "アプリバージョン", trailing: AnyView(Text("v1.0.0")));
+                        SettingsItem(title: "アプリバージョン", trailing: AnyView(Text("v1.0.0").font(.system(size: 14, weight: .medium))));
                     }
                     Spacer().frame(height: 36)
                     VStack (spacing: 0) {

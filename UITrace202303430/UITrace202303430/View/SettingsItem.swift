@@ -13,7 +13,7 @@ struct SettingsItem: View {
     var body: some View {
         VStack (spacing: 0) {
             HStack {
-                Text(title)
+                Text(title).font(.system(size: 14, weight: .medium))
                 Spacer()
                 trailing
             }.padding(.vertical, 8).padding(.trailing, 16)
