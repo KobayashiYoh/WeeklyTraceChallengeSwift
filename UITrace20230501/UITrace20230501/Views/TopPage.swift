@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct TopPage: View {
+    let signinButtonBackground: Color = Color(red: 0.275, green: 0.514, blue: 0)
     var body: some View {
         ZStack {
             Image("background").resizable().ignoresSafeArea()
@@ -15,12 +16,13 @@ struct TopPage: View {
                 Text("Qiita Feed App")
                 Text("-PlayGround-")
                 Button(action: {}) {
-                    Text("ログイン")
-                }
+                    Text("ログイン").foregroundColor(.white).bold().frame(maxWidth: .infinity, maxHeight: 50)
+                }.background(signinButtonBackground).cornerRadius(25)
+                Spacer().frame(height: 34)
                 Button(action: {}) {
-                    Text("ログインせずに利用する")
+                    Text("ログインせずに利用する").foregroundColor(.white).bold()
                 }
-            }
+            }.padding(.horizontal, 24)
         }
     }
 }
