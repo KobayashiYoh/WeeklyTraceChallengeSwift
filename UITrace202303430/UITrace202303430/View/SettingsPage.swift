@@ -17,10 +17,11 @@ struct SettingsPage: View {
                 Color(red: 0.949, green: 0.949, blue: 0.949)
                 VStack (alignment: .leading) {
                     VStack (spacing: 0) {
+                        Image("person").resizable().frame(width: 8, height: 16)
                         Spacer().frame(height: 32)
                         SettingsTitleLabel(title: "アプリ情報")
-                        SettingsItem(title: "プライバシーポリシー", trailing: AnyView(Text(">")));
-                        SettingsItem(title: "利用規約", trailing: AnyView(Text(">")));
+                        SettingsItem(title: "プライバシーポリシー", trailing: AnyView(ArrowButton()));
+                        SettingsItem(title: "利用規約", trailing: AnyView(ArrowButton()));
                         SettingsItem(title: "アプリバージョン", trailing: AnyView(Text("v1.0.0").font(.system(size: 14, weight: .medium))));
                     }
                     Spacer().frame(height: 36)
