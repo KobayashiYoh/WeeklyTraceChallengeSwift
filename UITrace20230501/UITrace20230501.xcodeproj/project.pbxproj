@@ -14,6 +14,7 @@
 		D9F7E03429FFE69C0017677C /* UITrace20230501Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F7E03329FFE69C0017677C /* UITrace20230501Tests.swift */; };
 		D9F7E03E29FFE69C0017677C /* UITrace20230501UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F7E03D29FFE69C0017677C /* UITrace20230501UITests.swift */; };
 		D9F7E04029FFE69C0017677C /* UITrace20230501UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F7E03F29FFE69C0017677C /* UITrace20230501UITestsLaunchTests.swift */; };
+		D9F7E05329FFE9040017677C /* TopPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F7E05229FFE9040017677C /* TopPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		D9F7E03929FFE69C0017677C /* UITrace20230501UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITrace20230501UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F7E03D29FFE69C0017677C /* UITrace20230501UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITrace20230501UITests.swift; sourceTree = "<group>"; };
 		D9F7E03F29FFE69C0017677C /* UITrace20230501UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITrace20230501UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D9F7E05229FFE9040017677C /* TopPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		D9F7E02029FFE69B0017677C /* UITrace20230501 */ = {
 			isa = PBXGroup;
 			children = (
+				D9F7E05129FFE8E20017677C /* Views */,
 				D9F7E02129FFE69B0017677C /* UITrace20230501App.swift */,
 				D9F7E02329FFE69B0017677C /* ContentView.swift */,
 				D9F7E02529FFE69C0017677C /* Assets.xcassets */,
@@ -127,6 +130,14 @@
 				D9F7E03F29FFE69C0017677C /* UITrace20230501UITestsLaunchTests.swift */,
 			);
 			path = UITrace20230501UITests;
+			sourceTree = "<group>";
+		};
+		D9F7E05129FFE8E20017677C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D9F7E05229FFE9040017677C /* TopPage.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9F7E05329FFE9040017677C /* TopPage.swift in Sources */,
 				D9F7E02429FFE69B0017677C /* ContentView.swift in Sources */,
 				D9F7E02229FFE69B0017677C /* UITrace20230501App.swift in Sources */,
 			);
