@@ -13,8 +13,11 @@ struct TopPage: View {
         ZStack {
             Image("background").resizable().ignoresSafeArea()
             VStack {
-                Text("Qiita Feed App")
-                Text("-PlayGround-")
+                Spacer().frame(height: 220)
+                Text("Qiita Feed App").foregroundColor(.white).font(.custom("Pacifico-Regular", size: 36))
+                Text("-PlayGround-").foregroundColor(.white).font(.system(size: 14, weight: .bold))
+                Spacer().frame(height: 8)
+                Spacer()
                 Button(action: {}) {
                     Text("ログイン").foregroundColor(.white).bold().frame(maxWidth: .infinity, maxHeight: 50)
                 }.background(signinButtonBackground).cornerRadius(25)
@@ -22,6 +25,7 @@ struct TopPage: View {
                 Button(action: {}) {
                     Text("ログインせずに利用する").foregroundColor(.white).bold()
                 }
+                Spacer().frame(height: 81)
             }.padding(.horizontal, 24)
         }
     }
