@@ -12,6 +12,7 @@ struct TopPage: View {
     var body: some View {
         ZStack {
             Image("background").resizable().ignoresSafeArea()
+            Color(red: 0, green: 0, blue: 0, opacity: 0.2).ignoresSafeArea()
             VStack {
                 Spacer().frame(height: 220)
                 Text("Qiita Feed App").foregroundColor(.white).font(.custom("Pacifico-Regular", size: 36))
