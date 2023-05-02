@@ -7,7 +7,8 @@
 
 import SwiftUI
 
-struct ProfileSectionItem: View {
+struct ProfileSectionItem: View, Identifiable, Hashable {
+    let id = UUID()
     var systemName: String
     var title: String
     var body: some View {
@@ -16,7 +17,7 @@ struct ProfileSectionItem: View {
                 Spacer().frame(width: 40, height: 40).background(.black)
                 Image(systemName: "a").foregroundColor(.white)
             }
-            Text("hoge").foregroundColor(.white).bold().font(.title)
+            Text(title).foregroundColor(.white).bold().font(.title)
         }.frame(width: 120, height: 120).background(.purple).cornerRadius(16)
     }
 }

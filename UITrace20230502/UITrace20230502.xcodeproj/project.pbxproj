@@ -15,6 +15,7 @@
 		D9F7E0F72A0140430017677C /* UITrace20230502UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F7E0F62A0140430017677C /* UITrace20230502UITests.swift */; };
 		D9F7E0F92A0140430017677C /* UITrace20230502UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F7E0F82A0140430017677C /* UITrace20230502UITestsLaunchTests.swift */; };
 		D9F7E10B2A0141810017677C /* ProfileSectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F7E10A2A0141810017677C /* ProfileSectionItem.swift */; };
+		D9F7E10F2A0143B00017677C /* ProfileSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F7E10E2A0143B00017677C /* ProfileSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D9F7E0F62A0140430017677C /* UITrace20230502UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITrace20230502UITests.swift; sourceTree = "<group>"; };
 		D9F7E0F82A0140430017677C /* UITrace20230502UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITrace20230502UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D9F7E10A2A0141810017677C /* ProfileSectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSectionItem.swift; sourceTree = "<group>"; };
+		D9F7E10E2A0143B00017677C /* ProfileSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				D9F7E10A2A0141810017677C /* ProfileSectionItem.swift */,
+				D9F7E10E2A0143B00017677C /* ProfileSection.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9F7E0DD2A0140420017677C /* ContentView.swift in Sources */,
+				D9F7E10F2A0143B00017677C /* ProfileSection.swift in Sources */,
 				D9F7E0DB2A0140420017677C /* UITrace20230502App.swift in Sources */,
 				D9F7E10B2A0141810017677C /* ProfileSectionItem.swift in Sources */,
 			);
