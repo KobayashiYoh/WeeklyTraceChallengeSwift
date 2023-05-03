@@ -16,6 +16,7 @@
 		D983F3032A029D1100602227 /* UITrace20230503UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D983F3022A029D1100602227 /* UITrace20230503UITestsLaunchTests.swift */; };
 		D983F3112A029D4900602227 /* TopUpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D983F3102A029D4900602227 /* TopUpPage.swift */; };
 		D983F3132A029E9900602227 /* RecentTransactionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D983F3122A029E9900602227 /* RecentTransactionItem.swift */; };
+		D983F3152A02A47500602227 /* SubPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D983F3142A02A47500602227 /* SubPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D983F3022A029D1100602227 /* UITrace20230503UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITrace20230503UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D983F3102A029D4900602227 /* TopUpPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpPage.swift; sourceTree = "<group>"; };
 		D983F3122A029E9900602227 /* RecentTransactionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTransactionItem.swift; sourceTree = "<group>"; };
+		D983F3142A02A47500602227 /* SubPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 			children = (
 				D983F3102A029D4900602227 /* TopUpPage.swift */,
 				D983F3122A029E9900602227 /* RecentTransactionItem.swift */,
+				D983F3142A02A47500602227 /* SubPage.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D983F3152A02A47500602227 /* SubPage.swift in Sources */,
 				D983F3132A029E9900602227 /* RecentTransactionItem.swift in Sources */,
 				D983F2E72A029D1000602227 /* ContentView.swift in Sources */,
 				D983F2E52A029D1000602227 /* UITrace20230503App.swift in Sources */,
