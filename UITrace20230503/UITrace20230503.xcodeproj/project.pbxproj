@@ -14,6 +14,7 @@
 		D983F2F72A029D1100602227 /* UITrace20230503Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D983F2F62A029D1100602227 /* UITrace20230503Tests.swift */; };
 		D983F3012A029D1100602227 /* UITrace20230503UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D983F3002A029D1100602227 /* UITrace20230503UITests.swift */; };
 		D983F3032A029D1100602227 /* UITrace20230503UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D983F3022A029D1100602227 /* UITrace20230503UITestsLaunchTests.swift */; };
+		D983F3112A029D4900602227 /* TopUpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D983F3102A029D4900602227 /* TopUpPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		D983F2FC2A029D1100602227 /* UITrace20230503UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITrace20230503UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D983F3002A029D1100602227 /* UITrace20230503UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITrace20230503UITests.swift; sourceTree = "<group>"; };
 		D983F3022A029D1100602227 /* UITrace20230503UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITrace20230503UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D983F3102A029D4900602227 /* TopUpPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		D983F2E32A029D1000602227 /* UITrace20230503 */ = {
 			isa = PBXGroup;
 			children = (
+				D983F30F2A029D3C00602227 /* View */,
 				D983F2E42A029D1000602227 /* UITrace20230503App.swift */,
 				D983F2E62A029D1000602227 /* ContentView.swift */,
 				D983F2E82A029D1100602227 /* Assets.xcassets */,
@@ -127,6 +130,14 @@
 				D983F3022A029D1100602227 /* UITrace20230503UITestsLaunchTests.swift */,
 			);
 			path = UITrace20230503UITests;
+			sourceTree = "<group>";
+		};
+		D983F30F2A029D3C00602227 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D983F3102A029D4900602227 /* TopUpPage.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			files = (
 				D983F2E72A029D1000602227 /* ContentView.swift in Sources */,
 				D983F2E52A029D1000602227 /* UITrace20230503App.swift in Sources */,
+				D983F3112A029D4900602227 /* TopUpPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
