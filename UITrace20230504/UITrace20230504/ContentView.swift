@@ -11,10 +11,12 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Image(systemName: "globe")
-                    .imageScale(.large)
-                    .foregroundColor(.accentColor)
-                Text("Hello, world!")
+                StoreItem(imageName: "store-item", rank: 1, title: "title", subTitle: "subTitle", price: 0, isInstalled: false)
+                StoreItem(imageName: "store-item", rank: 2, title: "title", subTitle: "subTitle", price: 0, isInstalled: false)
+                StoreItem(imageName: "store-item", rank: 3, title: "title", subTitle: "subTitle", price: 0, isInstalled: false)
+                StoreItem(imageName: "store-item", rank: 4, title: "title", subTitle: "subTitle", price: 0, isInstalled: false)
+                StoreItem(imageName: "store-item", rank: 5, title: "title", subTitle: "subTitle", price: 0, isInstalled: false)
+                StoreItem(imageName: "store-item", rank: 6, title: "title", subTitle: "subTitle", price: 0, isInstalled: false)
             }
             .navigationBarTitle("Top Charts").navigationBarItems(
                 leading: Button(action: {}) {
