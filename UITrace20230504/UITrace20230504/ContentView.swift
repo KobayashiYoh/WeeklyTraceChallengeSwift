@@ -9,13 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            VStack {
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundColor(.accentColor)
+                Text("Hello, world!")
+            }
+            .navigationBarTitle("Top Charts").navigationBarItems(
+                leading: Button(action: {}) {
+                    Text("< Action")
+            }, trailing: Button(action: {}) {
+                Text("All Categories")
+        })
         }
-        .padding()
     }
 }
 
