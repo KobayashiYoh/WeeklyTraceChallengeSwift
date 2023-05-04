@@ -15,28 +15,39 @@ struct StoreItem: View {
     var price: Double
     var isInstalled: Bool
     var body: some View {
-        HStack {
-            Image("app-store").resizable().frame(width: 72, height: 72)
-            VStack {
-                Spacer().frame(height: 12)
-                HStack (alignment: .top) {
-                    Text("\(rank)").font(.title3).bold()
-                    VStack (alignment: .leading) {
-                        Text(title).font(.title3)
-                        Text(subTitle).foregroundColor(.gray)
+        VStack {
+            HStack {
+                Image("app-store").resizable().frame(width: 72, height: 72)
+                VStack {
+                    Spacer().frame(height: 8)
+                    HStack (alignment: .top) {
+                        Text("\(rank)").font(.title3).bold()
+                        VStack (alignment: .leading) {
+                            Text(title).font(.title3)
+                            Text(subTitle).foregroundColor(.gray)
+                        }
                     }
+                    Spacer()
                 }
                 Spacer()
+                isInstalled ? AnyView(Button(action: {}) {
+                    Image(systemName: "icloud.and.arrow.down").padding()
+                }) : AnyView(Button(action: {}) {
+                    Text(price == 0 ? "GET" : "\(String(format: "$%.2f", price))").padding(8).frame(width: 80).bold().font(.title3)
+                }.background(.secondary).cornerRadius(24))
+            }.frame(height: 80).padding(.horizontal, 16)
+            HStack {
+                Spacer().frame(width: 88)
+                VStack {
+                    Divider()
+                }
             }
-            Spacer()
-            Button("GET") {
-            }
-        }.frame(height: 80)
+        }
     }
 }
 
 struct StoreItem_Previews: PreviewProvider {
     static var previews: some View {
-        StoreItem(imageName: "store-item", rank: 1, title: "title", subTitle: "subTitle", price: 0, isInstalled: false)
+        StoreItem(imageName: "store-item", rank: 1, title: "title", subTitle: "subTitle", price: 3.99, isInstalled: true)
     }
 }

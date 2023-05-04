@@ -12,11 +12,11 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 StoreItem(imageName: "store-item", rank: 1, title: "title", subTitle: "subTitle", price: 0, isInstalled: false)
-                StoreItem(imageName: "store-item", rank: 2, title: "title", subTitle: "subTitle", price: 0, isInstalled: false)
-                StoreItem(imageName: "store-item", rank: 3, title: "title", subTitle: "subTitle", price: 0, isInstalled: false)
-                StoreItem(imageName: "store-item", rank: 4, title: "title", subTitle: "subTitle", price: 0, isInstalled: false)
-                StoreItem(imageName: "store-item", rank: 5, title: "title", subTitle: "subTitle", price: 0, isInstalled: false)
-                StoreItem(imageName: "store-item", rank: 6, title: "title", subTitle: "subTitle", price: 0, isInstalled: false)
+                StoreItem(imageName: "store-item", rank: 2, title: "title", subTitle: "subTitle", price: 0, isInstalled: true)
+                StoreItem(imageName: "store-item", rank: 3, title: "title", subTitle: "subTitle", price: 6.99, isInstalled: false)
+                StoreItem(imageName: "store-item", rank: 4, title: "title", subTitle: "subTitle", price: 2.99, isInstalled: false)
+                StoreItem(imageName: "store-item", rank: 5, title: "title", subTitle: "subTitle", price: 0, isInstalled: true)
+                StoreItem(imageName: "store-item", rank: 6, title: "title", subTitle: "subTitle", price: 3.99, isInstalled: false)
             }
             .navigationBarTitle("Top Charts").navigationBarItems(
                 leading: Button(action: {}) {
