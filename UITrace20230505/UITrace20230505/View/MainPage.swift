@@ -45,8 +45,9 @@ struct MainPage: View {
                 }
             }
             Button(action: {}) {
-                Text("Upgrade to Premium")
-            }
+                Text("Upgrade to Premium").foregroundColor(.white).frame(maxWidth: .infinity, maxHeight: 64).bold().font(.title3)
+            }.background(.purple).cornerRadius(24)
+            Spacer().frame(height: 16)
         }
     }
 }
