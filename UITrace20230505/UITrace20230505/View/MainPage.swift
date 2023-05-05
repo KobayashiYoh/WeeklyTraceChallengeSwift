@@ -9,20 +9,21 @@ import SwiftUI
 
 struct MainPage: View {
     var body: some View {
-        VStack {
+        VStack (alignment: .leading) {
             HStack {
                 Button(action: {}) {
-                    Image(systemName: "a")
+                    Text("←").foregroundColor(.gray).bold().font(.title)
                 }
                 Spacer()
                 Image(systemName: "a")
             }
-            Text("Hi Durbin dou,")
-            Text("Welcome to File Manager")
+            Text("Hi Durbin dou,").font(.title).bold()
+            Text("Welcome to File Manager").font(.title2).foregroundColor(.gray)
+            Spacer().frame(height: 16)
             VStack {
                 HStack {
                     Image(systemName: "a")
-                    VStack {
+                    VStack (alignment: .leading) {
                         Text("Title")
                         Text("Sub title")
                     }
@@ -31,12 +32,14 @@ struct MainPage: View {
                 }
             }
             HStack {
-                Text("Most download")
+                Text("Most download").font(.title)
                 Spacer()
-                Image(systemName: "a")
+                Image(systemName: "ellipsis")
             }
-            DownloadItem(title: "title", subtitle: "subtitle", count: 0)
-            DownloadItem(title: "title", subtitle: "subtitle", count: 0)
+            VStack {
+                DownloadItem(title: "title", subtitle: "subtitle", count: 0)
+                DownloadItem(title: "title", subtitle: "subtitle", count: 0)
+            }
             Button(action: {}) {
                 Text("Upgrade to Premium").foregroundColor(.white).frame(maxWidth: .infinity, maxHeight: 64).bold().font(.title3)
             }.background(.purple).cornerRadius(24)
