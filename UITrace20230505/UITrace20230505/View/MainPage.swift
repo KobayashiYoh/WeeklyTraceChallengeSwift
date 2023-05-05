@@ -35,20 +35,13 @@ struct MainPage: View {
                 Spacer()
                 Image(systemName: "a")
             }
-            HStack {
-                Image(systemName: "a")
-                VStack {
-                    Text("Title")
-                    Text("Sub title")
-                    Spacer()
-                    Text("1")
-                }
-            }
+            DownloadItem(title: "title", subtitle: "subtitle", count: 0)
+            DownloadItem(title: "title", subtitle: "subtitle", count: 0)
             Button(action: {}) {
                 Text("Upgrade to Premium").foregroundColor(.white).frame(maxWidth: .infinity, maxHeight: 64).bold().font(.title3)
             }.background(.purple).cornerRadius(24)
             Spacer().frame(height: 16)
-        }
+        }.padding(.horizontal, 16)
     }
 }
 

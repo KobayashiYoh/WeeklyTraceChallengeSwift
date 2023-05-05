@@ -15,6 +15,7 @@
 		D93904892A0547E30021F9ED /* UITrace20230505UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93904882A0547E30021F9ED /* UITrace20230505UITests.swift */; };
 		D939048B2A0547E30021F9ED /* UITrace20230505UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D939048A2A0547E30021F9ED /* UITrace20230505UITestsLaunchTests.swift */; };
 		D93904992A05483B0021F9ED /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93904982A05483B0021F9ED /* MainPage.swift */; };
+		D939049B2A0550250021F9ED /* DownloadItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D939049A2A0550250021F9ED /* DownloadItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D93904882A0547E30021F9ED /* UITrace20230505UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITrace20230505UITests.swift; sourceTree = "<group>"; };
 		D939048A2A0547E30021F9ED /* UITrace20230505UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITrace20230505UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D93904982A05483B0021F9ED /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		D939049A2A0550250021F9ED /* DownloadItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				D93904982A05483B0021F9ED /* MainPage.swift */,
+				D939049A2A0550250021F9ED /* DownloadItem.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D939049B2A0550250021F9ED /* DownloadItem.swift in Sources */,
 				D939046F2A0547E10021F9ED /* ContentView.swift in Sources */,
 				D939046D2A0547E10021F9ED /* UITrace20230505App.swift in Sources */,
 				D93904992A05483B0021F9ED /* MainPage.swift in Sources */,
