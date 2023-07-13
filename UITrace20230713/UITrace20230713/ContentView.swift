@@ -10,10 +10,19 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Spacer().frame(height: 200)
+            Text("Qiita Feed App")
+            Spacer().frame(height: 8)
+            Text("-PlayGround-")
+            Spacer()
+            Button(action: {}){
+              Text("ログイン")
+            }
+            Spacer().frame(height: 16)
+            Button(action: {}){
+              Text("ログインせずに続ける")
+            }
+            Spacer().frame(height: 64)
         }
         .padding()
     }
