@@ -14,6 +14,9 @@
 		D98CAD6F2A60222B0001E824 /* UITrace20230713Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98CAD6E2A60222B0001E824 /* UITrace20230713Tests.swift */; };
 		D98CAD792A60222B0001E824 /* UITrace20230713UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98CAD782A60222B0001E824 /* UITrace20230713UITests.swift */; };
 		D98CAD7B2A60222B0001E824 /* UITrace20230713UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98CAD7A2A60222B0001E824 /* UITrace20230713UITestsLaunchTests.swift */; };
+		D98CAD882A6026BD0001E824 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D98CAD872A6026BD0001E824 /* Pacifico-Regular.ttf */; };
+		D98CAD892A6026BD0001E824 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D98CAD872A6026BD0001E824 /* Pacifico-Regular.ttf */; };
+		D98CAD8A2A6026BD0001E824 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D98CAD872A6026BD0001E824 /* Pacifico-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,8 @@
 		D98CAD742A60222B0001E824 /* UITrace20230713UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITrace20230713UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D98CAD782A60222B0001E824 /* UITrace20230713UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITrace20230713UITests.swift; sourceTree = "<group>"; };
 		D98CAD7A2A60222B0001E824 /* UITrace20230713UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITrace20230713UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D98CAD872A6026BD0001E824 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		D98CAD8B2A6027890001E824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +100,8 @@
 		D98CAD5B2A60222A0001E824 /* UITrace20230713 */ = {
 			isa = PBXGroup;
 			children = (
+				D98CAD8B2A6027890001E824 /* Info.plist */,
+				D98CAD872A6026BD0001E824 /* Pacifico-Regular.ttf */,
 				D98CAD5C2A60222A0001E824 /* UITrace20230713App.swift */,
 				D98CAD5E2A60222A0001E824 /* ContentView.swift */,
 				D98CAD602A60222B0001E824 /* Assets.xcassets */,
@@ -233,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D98CAD882A6026BD0001E824 /* Pacifico-Regular.ttf in Resources */,
 				D98CAD652A60222B0001E824 /* Preview Assets.xcassets in Resources */,
 				D98CAD612A60222B0001E824 /* Assets.xcassets in Resources */,
 			);
@@ -242,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D98CAD892A6026BD0001E824 /* Pacifico-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D98CAD8A2A6026BD0001E824 /* Pacifico-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +427,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"UITrace20230713/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UITrace20230713/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -453,6 +464,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"UITrace20230713/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UITrace20230713/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
